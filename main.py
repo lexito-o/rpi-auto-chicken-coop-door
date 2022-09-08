@@ -8,7 +8,7 @@ config = dotenv_values(".env")
 
 @app.route('/')
 def index():
-    return 'aaa'
+    return 'bruh'
 
 if __name__ == '__main__':
     app.run(debug=True, host=config['HOST'], port=config['PORT'])
